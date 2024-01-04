@@ -1,6 +1,6 @@
 variable "instance_names" {
     type = list
-    default = ["mongodb" , "redis" , "mysql" , "rabbitmq" , "catalogue", "user", "shipping", "cart", "payment", "dispatch", "web"]
+    default = ["mongodb", "redis" , "mysql" , "rabbitmq" , "catalogue", "user", "shipping", "cart", "payment", "dispatch", "web"]
 
 }
 variable "ami_id" {
