@@ -1,6 +1,6 @@
 variable "isProd" {
-    type = list
-    default = false 
+    type = bool
+    default = true 
 }
 variable "ami_id" {
     default = "ami-03265a0778a880afb"
